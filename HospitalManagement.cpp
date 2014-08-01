@@ -35,7 +35,7 @@ SOFTWARE.
 #                                                                                #
 # Author: Muhammad Adeel | Founder UrduSecurity (c) 2014                         #
 # Mail :  Chaudhary1337@gmail.com                                                #
-# Blog :  http://UrduSecurity.blogspot.com                                      #
+# Blog :  http://UrduSecurity..blogspot.com                                      #
 #                                                                                #
 # Under 'MIT' License (c) 2014 >> Muhammad Adeel                                 #
 ##################################################################################
@@ -85,15 +85,15 @@ int main()
     FILE *fp, *ft;
     char another, choice;
 
-    struct student
+    struct Patient
     {
         char Patient_name[50], Disease_name[50];
         char Blood_Group[10];
-        double Cont_No;
+        double Cont_No; 
         int Patient_ID;
     };
 
-    struct student e;
+    struct Patient e;
     char xPatient_name[50];
     char xPatient_name1[50];
     long int recsize;
