@@ -1,29 +1,3 @@
-/* 
-
-The MIT License (MIT)
-
-Copyright (c) 2014 Muhammad Adeel
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-*/
-
 /*
 ##################################################################################
 ##################################################################################
@@ -57,8 +31,31 @@ using namespace std;
 //    Blog - http://urdusecurity.blogspot.com
 
 
+
 int main()
 {
+    
+    cout << "\n\t\t\t\t##################################################################################\n";
+    cout << "\t\t\t\t##################################################################################\n";
+    cout << "\t\t\t\t##################################################################################\n";
+    cout << "\t\t\t\t# This  Software is opensource and free to use for every one out there, also     #\n";
+    cout << "\t\t\t\t# Every one can Modify it , Just Never Ever Change The Name of Real Author.      #\n";
+    cout << "\t\t\t\t#                                                                                #\n";
+    cout << "\t\t\t\t# As This is Written as My second Semester Project at CBA College Jhang.         #\n";
+    cout << "\t\t\t\t#                                                                                #\n";
+    cout << "\t\t\t\t# Author: Muhammad Adeel | Founder UrduSecurity (c) 2014                         #\n";
+    cout << "\t\t\t\t# Mail :  Chaudhary1337@gmail.com                                                #\n";
+    cout << "\t\t\t\t# Blog :  http://UrduSecurity..blogspot.com                                      #\n";
+    cout << "\t\t\t\t#                                                                                #\n";
+    cout << "\t\t\t\t# Under 'MIT' License (c) 2014 >> Muhammad Adeel                                 #\n";
+    cout << "\t\t\t\t##################################################################################\n";
+    cout << "\t\t\t\t##################################################################################\n";
+    cout << "\t\t\t\t##################################################################################\n";
+    cout << "\t\t\t\t##################################################################################\n";
+    char cnfrm[5];
+    cout << "\n\n\t\t\t\tWelcome to 'Automated Hospital Database Managment System', Enter Your Name Please >>  ";
+    cin >> cnfrm;
+
     FILE *fp, *ft;
     char another, choice;
 
